@@ -1,10 +1,14 @@
 const express = require('express');
+require('./services/passport');
+
 const app = express();
 
-app.get('/', (req, res) => {
-    res.send({ hi: 'there changed'})
-})
+require('./routes/authRoutes')(app);
 
 const PORT = process.env.PORT || 5000;
 
 app.listen(PORT);
+
+/*
+<div class="g-signin2" data-onsuccess="onSignIn"></div>
+*/
