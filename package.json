@@ -1,0 +1,26 @@
+{
+  "name": "survey-by-email",
+  "version": "1.0.0",
+  "description": "An application build with Node, React, Redux, Express, and MongoDB",
+  "main": "index.js",
+  "engines": {
+    "node": "10.16.0",
+    "npm": "6.13.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsg1204/survey-by-email.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tsg1204/survey-by-email/issues"
+  },
+  "homepage": "https://github.com/tsg1204/survey-by-email#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
