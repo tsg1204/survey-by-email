@@ -12,11 +12,9 @@ class Header extends Component {
             default:
                 return <li><a href="/api/logout">Logout</a></li>;
         }
-
     }
 
     render () {
-        //console.log('From header:', this.props)
         return (
             <nav>
                 <div className="nav-wrapper">
